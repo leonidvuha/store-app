@@ -7,11 +7,10 @@ function App() {
     <>
       <h1>Hello React</h1>
       <Greeting />
-      <Greeting />
+      
       <Hero />
     </>
   );
 }
 
 export default App;
-
