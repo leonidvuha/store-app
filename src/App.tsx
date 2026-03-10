@@ -6,8 +6,10 @@ function App() {
   return (
     <>
       <h1>Hello React</h1>
-      <Greeting />
-      
+
+      <Greeting name="John" />
+      <Greeting name="Bob" />
+      <Greeting name="Ioann" age={20} />
       <Hero />
     </>
   );
