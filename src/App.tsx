@@ -13,12 +13,14 @@ function App() {
       <Greeting name="John" />
       <Greeting name="Bob" />
       <Greeting name="Ioann" age={20} />
-      <Hero />
+      
       <ProfileCard
         avatar="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
         name="Leonid"
         description="Frontend Developer in training"
+        
       />
+      <Hero />
     </>
   );
 }
