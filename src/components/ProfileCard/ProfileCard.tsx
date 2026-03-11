@@ -13,7 +13,7 @@ export default function ProfileCard(props: Props) {
   return (
   
     <div className={styles["profile-card"]}>
-      <img src={avatar} alt="User avatar" />
+      <img src={avatar} alt="User profile" />
       <h2>{name}</h2>
       <p>{description}</p>
     </div>
