@@ -13,4 +13,3 @@ export default function Book({ title, author, year }: BookProps) {
     </div>
   );
 }
-
