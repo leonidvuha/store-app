@@ -1,4 +1,5 @@
 import "./App.css";
+import Book from "./components/Book/Book";
 import { Counter } from "./components/Counter/Counter";
 import Greeting from "./components/Greeting/Greeting";
 import Hero from "./components/Hero/Hero";
@@ -10,8 +11,6 @@ function App() {
     <>
       <h1>Hello React</h1>
       <Tool />
-      <Greeting name="John" />
-      <Greeting name="Bob" />
       <Greeting name="Ioann" age={20} />
       <Hero />
       <Counter />
@@ -20,6 +19,7 @@ function App() {
         name="John Doe"
         description="Fake person"
       />
+      <Book title="Harry Potter" author="J.K. Rowling" year={1997} />
     </>
   );
 }
